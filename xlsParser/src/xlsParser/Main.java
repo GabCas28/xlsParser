@@ -70,7 +70,7 @@ public class Main {
 				}
 				// Create new Row object
 
-				Fila fila = new Fila(column[0], column[1], column[2], column[3], column[4], column[5], column[6],
+				Registro fila = new Registro(column[0], column[1], column[2], column[3], column[4], column[5], column[6],
 						column[7], column[8], column[9], convert(column[10]), convert(column[11]), column[12],
 						column[13], convert(column[14]), column[15], column[16], convert(column[17]), column[18],
 						column[19], Integer.parseInt(column[20]), column[21]);

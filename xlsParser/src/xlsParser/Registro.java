@@ -2,14 +2,14 @@ package xlsParser;
 
 import java.sql.Timestamp;
 
-public class Fila {
+public class Registro {
 	String id, left, state, severity, priority, category, nodehits_dnsname, control_external_id, sistema, aplicacion,
 			u_asignado, g_asignado, u_resuelto, g_resuelto, u_cerrado, g_cerrado, replace;
 	Timestamp fec_crea, asignado, resuelto, cerrado;
 	int duplicate_count;
-	public Fila() {
+	public Registro() {
 	}
-	public Fila(String id, String left, String state, String severity, String priority, String category,
+	public Registro(String id, String left, String state, String severity, String priority, String category,
 			String nodehits_dnsname, String control_external_id, String sistema, String aplicacion, Timestamp fec_crea,
 			Timestamp asignado, String u_asignado, String g_asignado, Timestamp resuelto, String u_resuelto,
 			String g_resuelto, Timestamp cerrado, String u_cerrado, String g_cerrado, int duplicate_count,
@@ -216,7 +216,7 @@ public class Fila {
 	}
 	@Override
 	public String toString() {
-		return "Fila [id=" + id + ", left=" + left + ", state=" + state + ", severity=" + severity + ", priority="
+		return "Registro [id=" + id + ", left=" + left + ", state=" + state + ", severity=" + severity + ", priority="
 				+ priority + ", category=" + category + ", nodehits_dnsname=" + nodehits_dnsname
 				+ ", control_external_id=" + control_external_id + ", sistema=" + sistema + ", aplicacion=" + aplicacion
 				+ ", u_asignado=" + u_asignado + ", g_asignado=" + g_asignado + ", u_resuelto=" + u_resuelto
